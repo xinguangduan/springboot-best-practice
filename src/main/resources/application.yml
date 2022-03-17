@@ -1,0 +1,18 @@
+server:
+  port: 8070
+
+logging:
+    level:
+      root: INFO
+
+management:
+  endpoints: 
+    web:
+      exposure:
+        include: "*"
+    
+  endpoint:
+    shutdown:
+      enabled: true
+
+
